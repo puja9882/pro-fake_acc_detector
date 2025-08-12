@@ -6,7 +6,7 @@ import joblib
 model = joblib.load("rf_model.joblib")
 scaler = joblib.load("rf_scaler.joblib")
 
-st.title("Instagram Fake Account Detector")
+st.title("-Instagram Fake Account Detector-")
 
 # Inputs (raw values)
 followers = st.number_input("Followers", min_value=0)
